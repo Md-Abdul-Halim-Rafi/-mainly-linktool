@@ -1,1 +1,1 @@
-# -mainly-linktool
+# mainly-linktool
