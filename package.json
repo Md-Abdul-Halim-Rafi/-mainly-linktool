@@ -1,6 +1,6 @@
 {
   "name": "@mainly/linktool",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Link tool for editor js, inspired by editor js official npm package",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -27,7 +27,6 @@
     "@babel/core": "^7.10.2",
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
-    "@codexteam/ajax": "^4.1.0",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^3.5.3",
@@ -45,6 +44,8 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.2"
+    "@babel/runtime": "^7.10.2",
+    "axios": "^0.19.2",
+    "open-graph-scraper": "^4.1.1"
   }
 }
